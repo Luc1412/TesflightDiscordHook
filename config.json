@@ -1,0 +1,7 @@
+{
+  "check_interval": 600,
+  "beta_code": "1SyedSId",
+  "webhook_url": "https://discord.com/api/webhooks/WEBHOOK_ID/WEBHOOK_TOKEN",
+  "available_message": "Beta changed: Available",
+  "full_message": "Beta changed: Full"
+}
