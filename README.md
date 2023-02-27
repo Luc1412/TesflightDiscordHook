@@ -17,3 +17,10 @@ It sends a message once beta spots are available, and once the beta is full agai
 `available_message`: The message to post when spots are available. You can include mentions to receive notifications\
 `full_message`: The message to post when the beta is full again.
 
+## Docker
+You can also run this script in a Docker container. To do so, follow these steps:
+1. Install Docker
+2. Clone this repository
+3. Adjust the config in `config.json`. Alternatively, you can also mount a config file into the container.
+4. Run `docker build -t TestflightChecker .` to build the image
+
